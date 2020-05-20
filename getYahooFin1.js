@@ -54,6 +54,8 @@ rp(url)
 			index_change_percent.push(parseFloat(a.text()));
 			//console.log(sym.text());
 		});
+	
+		console.log("sym" + "  " + "name" + "  " + "last_price" + "  " + "change_abs" + "  " + "change_percent");
 
 		for(i = 0; i < index_sym.length; i++)
 		{
